@@ -1,7 +1,12 @@
 // JavaScript Document
 $(document).ready(function(e) {
-document.addEventListener("deviceready",function(){
-	
+//document.addEventListener("deviceready",function(){
+	$('#menu').on ('tap', function(){
+		navigator.vibrate(1000);
+	});
+	$('#intro').on ('tap',function (){
+		navigator.vibrate (1000)
+	});
 }); 
-});
+//});
 
